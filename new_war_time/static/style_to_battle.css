@@ -1,0 +1,21 @@
+body {
+    background-image: url('img/to_battle.jpg');
+    background-size: cover;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+button {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.event_selection_block {
+
+}

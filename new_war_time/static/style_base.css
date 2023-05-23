@@ -1,0 +1,44 @@
+body {
+    background-image: url('img/background.jpg');
+    background-size: cover;
+}
+
+.bottom_buttons {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: absolute;
+  bottom: 30px;
+  width: 95%;
+  gap: 20px;
+}
+
+.bottom_right {
+  position: fixed;
+  display: block;
+  margin-bottom: 10px;
+  top: 10px;
+  right: 10px;
+}
+
+.left_info {
+    display: flex;
+    align-items: top;
+}
+
+.left_info img {
+    width: 200px;
+    height: 200px;
+}
+
+.left_info input {
+    width: 200px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.left_info p {
+    margin-left: 210px;
+    margin-top: 30px;
+    position: absolute;
+}
